@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    background-color: paleturquoise;
+    padding: 10px 0;
+    width: 1000px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar h5{
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+#send{
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.hero {
+    height: 400px;
+    width: 1000px;
+    background-color: thistle;
+    margin: auto;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.links {
+    width: 1fr 2fr;
+}
+
+.rechts {
+    margin-left: 600px;
+    margin-right: 50px;
+}
+
+.Karusell {
+    margin-top: 30px;
+    height: 100px;
+    width: auto;
+    background-color: #101041;
+  }
+  
+  .tops {
+    display: flex;
+    height: 110px;
+    animation: moveToleft 25s linear infinite;
+  }
+  
+  .topslides {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .topslides img {
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 20px;
+  }
+
+  @keyframes moveToleft {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  .flops {
+    display: flex;
+    height: 110px;
+    animation: moveToright 40s linear infinite;
+  }
+  
+  .flopslides {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .flopslides img {
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 20px;
+  }
+
+
+  @keyframes moveToright {
+    0% {
+      transform: translateX(-50%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  .Tabelle {
+    margin-left: 850px;
+  }
+
+  .keyfeatures {
+    width: 1000px;
+    margin: auto;
+  }
+
+  .view {
+    padding-right: 0px;
+    border-radius: 10px;
+  }
+
+  .hauptcontainer {
+    
+    display: flex;
+  }
+
+  .container1 {
+    width: 700px;
+  }
+
+  .container1 img {
+    height: 25%;
+  }
+
+  .container2 {
+    width: 300px;
+  }
+
+  .container2 img {
+    height: 25%;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  
+  
